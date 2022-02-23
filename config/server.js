@@ -10,6 +10,6 @@ module.exports = ({ env }) => ({
   url: env("MY_HEROKU_URL"),
   proxy: true,
   app: {
-    keys: env.array("9d94428909075dda4360484d5dae728a7bca1bba2184767b323c642cb409e8fa", ["testKey1", "testKey2"]),
+    keys: env.array("qFBMFGEqnTxtkc5Jj5/omQ==", ["YbUv11JpnFnMWT44BMcLFw==", "Nx6M073Ap17L76jMB6Cy1Q=="]),
   },
 });
